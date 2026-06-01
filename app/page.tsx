@@ -59,7 +59,7 @@ export default async function Home() {
         </BentoCard>
 
         {/* Course Tiles */}
-        {courses.map((course, index) => (
+        {courses.map((course : any, index : number) => (
           <BentoCard
             key={course.id}
             delay={0.2 + index * 0.1}
