@@ -4,7 +4,7 @@ export default function ActivityPage() {
   const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
   return (
-    <main className="ml-72 min-h-screen bg-slate-100">
+    <main className="ml-2 min-h-screen bg-slate-100">
       <div className="max-w-7xl mx-auto px-8 py-10">
 
         {/* Header */}
